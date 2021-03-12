@@ -10,11 +10,12 @@
 ![オセロ画面](http://drive.google.com/uc?export=view&id=1P_cAYwxzamal5cBqocgq9BQkNOUpD4V9)
 
 ### 実行方法
+- OpenGLをインストール（割愛）
 - main.cppをコンパイルする
 >$ g++ main.cpp -o othero.out
 - 実行ファイルを実行する
 > $ ./othero.out
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ5NjY0OTksLTc5OTcyODY0NCwyNT
-UyMzQ4OTksLTg1MDE5MDg1Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwMDk5NjMyMiwtNzk5NzI4NjQ0LDI1NT
+IzNDg5OSwtODUwMTkwODU3LDczMDk5ODExNl19
 -->
