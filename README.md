@@ -1,6 +1,6 @@
 
 ### /Othero
-- 自作のオセロゲーム（c++/OpneGL）
+- 自作のオセロゲーム（c++/OpenGL）
 ### /Mahjong
 - 対戦の組み合わせを考慮した麻雀の実力分析（python/pystan）
 ### /RevenueManagement
@@ -12,6 +12,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3OTA0NTU4LDI3MDMwODI0LDE2MTMzNj
-U2NzcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMD
+gyNCwxNjEzMzY1Njc3LDczMDk5ODExNl19
 -->
