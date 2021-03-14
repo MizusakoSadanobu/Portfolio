@@ -11,11 +11,10 @@
 ![daily](http://drive.google.com/uc?export=view&id=1btghJTt5eB5nKRtTNi230uuvb66ecqQy)
 
 ### どのように使うのか
-- Google Analyticsに対象Webサイトを登録していない方、APIの利用申請をしていない方は、登録、申請をお願いします（アカウント主は以下を参考にしました）
+- Google Analyticsに対象Webサイトを登録していない方、APIの利用申請をしていない方は、登録、申請をお願いします（アカウント主は以下を参考にしました）。以降では、アカウントの設定が完了しており、①対象WebのビューIDが取得できている、②サービスアカウント用のJSON形式の鍵が生成できている、ことを前提にpythonモジュールの使い方を説明します
 	- [Googleアナリティクス登録・設定手順【これさえ読めばOK！】](https://wacul-ai.com/blog/access-analysis/google-analytics-setting/ga-register/)
 	- [Google Analytics API を叩いてデータを取得するまでの流れ（Ruby）](https://qiita.com/ryota-sasabe/items/a5efd2aac244cfcce5c7)	
 	- [アナリティクス Reporting API v4を使ってGoogle Analyticsのデータを取得する](https://dev.classmethod.jp/articles/ga-api-v4/)
-- 以降では、アカウントの設定が完了しており、①対象WebのビューIDが取得できている、②サービスアカウント用のJSON形式の鍵が生成できている、ことを前提にpythonモジュールの使い方を説明します
 - まず、モジュールへのパスを設定した上で（割愛）、MyGoogleAnalyticsFunctionsモジュールからExtractGoogleAnalyticsDataクラスを読み込みます。このクラスには以下のメソッドが実装されています
 	- \_\_init\_\_(self, params)
 		- params変数の設定を読み込みます（詳細後述）
@@ -51,7 +50,7 @@ egad_1week.get_report()
 egad_1week.plot_data()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTA1NTU0OSwxMjk2OTAzNDc2LC04OD
+eyJoaXN0b3J5IjpbLTUyNDQ4NzMxNCwxMjk2OTAzNDc2LC04OD
 E5NDg0NjksMTcxNTY4MDQ5MSwtMTQ4OTg1MjY3Niw3MzA5OTgx
 MTZdfQ==
 -->

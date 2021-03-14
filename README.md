@@ -1,5 +1,22 @@
 ### これは何か
 - アカウント主のポートフォリオをまとめたgitアカウントです
+#### [/Mahjong](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Mahjong)
+- 対戦の組み合わせを考慮した麻雀の実力分析（python/pystan）
+- 作成年月：2020/11
+#### [/RevenueManagement](https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement)
+- 需要予測に基づく案件受注判断の高度化（python/sklearn/pulp）
+- 作成年月：2020/12
+#### [/TweetTopicAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TweetTopicAnalysis)
+- Twitterのトピック分析（python/）
+- 作成年月：2020/07
+#### [/BlogKPIAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/BlogKPIAnalysis)
+- Google Analytics API, Twitter APIによるKPI分析（python/a）
+- 作成年月：2020/07
+#### [/Othero](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Othero)
+- 自作のオセロゲーム（c++/opengl）
+- 作成年月：2018/04
+
+
 
 ### アカウント主は何者か
 #### 経歴
@@ -27,26 +44,9 @@
 - 財務シミュレーション
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
-### ポートフォリオ
-#### [/Mahjong](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Mahjong)
-- 対戦の組み合わせを考慮した麻雀の実力分析（python/pystan）
-- 作成年月：2020/11
-#### [/RevenueManagement](https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement)
-- 需要予測に基づく案件受注判断の高度化（python/sklearn/pulp）
-- 作成年月：2020/12
-#### [/TweetTopicAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TweetTopicAnalysis)
-- Twitterのトピック分析（python/）
-- 作成年月：2020/07
-#### [/BlogKPIAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/BlogKPIAnalysis)
-- Google Analytics API, Twitter APIによるKPI分析（python/a）
-- 作成年月：2020/07
-#### [/Othero](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Othero)
-- 自作のオセロゲーム（c++/opengl）
-- 作成年月：2018/04
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDczMTY5MywtMTc0OTA4OTUwOSw0MD
-Y2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5Mzg4ODMz
-OTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNCwxNjEzMz
-Y1Njc3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE5ODgwODEsLTUzNDczMTY5MywtMTc0OT
+A4OTUwOSw0MDY2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1
+MSw5Mzg4ODMzOTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMD
+gyNCwxNjEzMzY1Njc3LDczMDk5ODExNl19
 -->
