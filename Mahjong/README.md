@@ -6,10 +6,13 @@
 
 ### なぜ分析したのか
 - アカウント主（ME）は同僚（A~O）と定期的に麻雀対戦を行っており、その対戦結果をデータに残しています
+
 ![mahjong_log](http://drive.google.com/uc?export=view&id=1s5tA0EJCP72ncVaBuby_eE8KjaqwWpxh)
 - 対戦実績を集計してプレーヤー毎の1位率を集計した結果、アカウント主は16名中2位の成績でした
+
 ![winning_rate](http://drive.google.com/uc?export=view&id=1c9FzXZPeGk7FAwAqq-BCoAbTTYR1jDL3)
 - アカウント主（ME）の対戦回数は、常連の同僚（A, H, D）と比べて少ないものの、**強いプレーヤーとの対戦では1位を獲得できている**という自負があ離ました
+
 ![mahjong_log](http://drive.google.com/uc?export=view&id=1D88L_8JuuFx9Z-bwD7FVpQ9BjObtSPxT)
 - **「対戦におけるプレーヤーの組み合わせ」と「対戦回数」を加味した上で、プレーヤーの強さを定量的に評価する術がないかと思い、本ポートフォリオで紹介する分析に至ります**
 
@@ -69,12 +72,13 @@ model {
 - また、50パーセンタイル点の16プレーヤーの大小関係は、単純集計の大小関係とは異なっており、対戦相手の実力が考慮されているようにも見受けられます
 	- 例えば、単純集計の1位率はM>Dだが、stanによる推定の50パーセンタイル点ではD>Mと順位が逆転しています
 - しかし、確率分布として見ると、**非常に裾野の広い分布として推定されており、同僚Aのみならず多くの同僚の強さと比較しても有意な差があると言えない**ようです。アカウント主が「俺、強え」と感じていたのは、思い上がりのようでした
+
 ![mahjong_log](http://drive.google.com/uc?export=view&id=1Z_P0y6LaXrGBqmapysFgDvVAttlKok2m)
 
 ### 終わりに
 - 「1位を取れるかどうか」という観点のみでプレーヤーの強さを評価した場合、高々156試合こなした程度では、有意な差は得られないようでした
 - 「1位を取れるかどうか」だけが麻雀の強さではないので、データ数を増やさずとも、強さ指標の定義を見直すことで、より明確な差がつくような結果が得られるかもしれません
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI1MDcyODgsLTQyMjI1NzkzNSwyOT
-I2Mjg0NzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjI0ODIwMzU2LC0xNDEyNTA3Mjg4LC00Mj
+IyNTc5MzUsMjkyNjI4NDc4LDczMDk5ODExNl19
 -->
