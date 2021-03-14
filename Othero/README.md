@@ -13,11 +13,16 @@
 ### どのように使うのか
 - OpenGLをインストールする（割愛）
 - main.cppをコンパイルする
->$ g++ main.cpp -o othero.out
+```
+$ g++ main.cpp -o othero.out
+```
 - 実行ファイルを実行する
-> $ ./othero.out
+
+```
+$ ./othero.out
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYwOTI5OTcsLTE3MTMyMjk4NDcsLT
+eyJoaXN0b3J5IjpbLTExNjkzMTkyODksLTE3MTMyMjk4NDcsLT
 IwMDk5NjMyMiwtNzk5NzI4NjQ0LDI1NTIzNDg5OSwtODUwMTkw
 ODU3LDczMDk5ODExNl19
 -->
