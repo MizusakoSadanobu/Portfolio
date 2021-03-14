@@ -44,9 +44,14 @@ params = {
 ```
 - 最後に、クラスをインスタンス化して、以下のように実行すればデータ取得〜可視化が行えます
 
-
+```python:
+egad_1week = ExtractGoogleAnalyticsData(params)
+egad_1week.initialize_analyticsreporting()
+egad_1week.get_report()
+egad_1week.plot_data()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Njk5ODEyOCwxMjk2OTAzNDc2LC04OD
+eyJoaXN0b3J5IjpbMjEyOTA1NTU0OSwxMjk2OTAzNDc2LC04OD
 E5NDg0NjksMTcxNTY4MDQ5MSwtMTQ4OTg1MjY3Niw3MzA5OTgx
 MTZdfQ==
 -->
