@@ -1,5 +1,5 @@
 ### これは何か
-- アカウント主のポートフォリオをまとめたサイト
+- アカウント主のポートフォリオをまとめたgitアカウントです
 
 ### アカウント主は何者か
 #### 経歴
@@ -45,7 +45,7 @@
 - 作成年月：2018/04
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5Mz
-g4ODMzOTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNCwx
-NjEzMzY1Njc3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNDA2NjU1ODMyLDE3MTg0ODA0ODcsLTEyMz
+IyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMjYwOCwyMzc5MDQ1NTgs
+MjcwMzA4MjQsMTYxMzM2NTY3Nyw3MzA5OTgxMTZdfQ==
 -->

@@ -11,7 +11,7 @@
 - 対戦実績を集計してプレーヤー毎の1位率を集計した結果、アカウント主は16名中2位の成績でした
 
 ![winning_rate](http://drive.google.com/uc?export=view&id=1c9FzXZPeGk7FAwAqq-BCoAbTTYR1jDL3)
-- アカウント主（ME）の対戦回数は、常連の同僚（A, H, D）と比べて少ないものの、**強いプレーヤーとの対戦では1位を獲得できている**という自負があ離ました
+- アカウント主（ME）の対戦回数は、常連の同僚（A, H, D）と比べて少ないものの、**強いプレーヤーとの対戦では1位を獲得できている**という自負がありました
 
 ![mahjong_log](http://drive.google.com/uc?export=view&id=1D88L_8JuuFx9Z-bwD7FVpQ9BjObtSPxT)
 - **「対戦におけるプレーヤーの組み合わせ」と「対戦回数」を加味した上で、プレーヤーの強さを定量的に評価する術がないかと思い、本ポートフォリオで紹介する分析に至ります**
@@ -79,6 +79,6 @@ model {
 - 「1位を取れるかどうか」という観点のみでプレーヤーの強さを評価した場合、高々156試合こなした程度では、有意な差は得られないようでした
 - 「1位を取れるかどうか」だけが麻雀の強さではないので、データ数を増やさずとも、強さ指標の定義を見直すことで、より明確な差がつくような結果が得られるかもしれません
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0ODIwMzU2LC0xNDEyNTA3Mjg4LC00Mj
+eyJoaXN0b3J5IjpbOTg5OTU0NjA0LC0xNDEyNTA3Mjg4LC00Mj
 IyNTc5MzUsMjkyNjI4NDc4LDczMDk5ODExNl19
 -->
