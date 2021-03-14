@@ -26,11 +26,14 @@
 		- self.dfに取得したデータが格納されます
 	- plot_data(self)
 		- self.dfのデータを、日別とページ別のデータに集計して可視化します
-```python:import
+
+```python
 from MyGoogleAnalyticsFunctions import ExtractGoogleAnalyticsData
 ```
+
 - 次に、クラス初期化に必要なparams変数の設定を行います
-```python:params
+
+```python
 params = {
     'scopes': ['https://www.googleapis.com/auth/analytics.readonly'],
     'key_file_location': '/content/drive/MyDrive/XXXX/XXXXX.json',# keyファイルへのパス
@@ -41,16 +44,18 @@ params = {
     'startDate':'today',#抽出開始日（'yyyy-mm-dd', 'today'などのフォーマットに対応）
 }
 ```
+
 - 最後に、クラスをインスタンス化して、以下のように実行すればデータ取得〜可視化が行えます
 
-```python:do
+```python:
 egad_1week = ExtractGoogleAnalyticsData(params)
 egad_1week.initialize_analyticsreporting()
 egad_1week.get_report()
 egad_1week.plot_data()
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzM2MTM0LC01MjQ0ODczMTQsMTI5Nj
-kwMzQ3NiwtODgxOTQ4NDY5LDE3MTU2ODA0OTEsLTE0ODk4NTI2
-NzYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDc1MTU4NzI4LDgzMzM4OTU3MiwtMjYzMz
+YxMzQsLTUyNDQ4NzMxNCwxMjk2OTAzNDc2LC04ODE5NDg0Njks
+MTcxNTY4MDQ5MSwtMTQ4OTg1MjY3Niw3MzA5OTgxMTZdfQ==
 -->
