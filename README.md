@@ -31,13 +31,13 @@
 #### [/Mahjong](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Mahjong)
 - 対戦の組み合わせを考慮した麻雀の実力分析（python/pystan）
 - 作成年月：2020/11
-#### [/RevenueManagement]((https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement))
+#### [/RevenueManagement](https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement)
 - 需要予測に基づく案件受注判断の高度化（python/sklearn/pulp）
 - 作成年月：2020/12
 #### [/TweetTopicAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TweetTopicAnalysis)
 - Twitterのトピック分析（python/）
 - 作成年月：2020/07
-#### [/BlogKPIAnalysis]((https://github.com/MizusakoSadanobu/Portfolio/tree/master/BlogKPIAnalysis))
+#### [/BlogKPIAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/BlogKPIAnalysis)
 - Google Analytics API, Twitter APIによるKPI分析（python/a）
 - 作成年月：2020/07
 #### [/Othero](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Othero)
@@ -45,8 +45,8 @@
 - 作成年月：2018/04
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDkwODk1MDksNDA2NjU1ODMyLDE3MT
-g0ODA0ODcsLTEyMzIyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMjYw
-OCwyMzc5MDQ1NTgsMjcwMzA4MjQsMTYxMzM2NTY3Nyw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTUzNDczMTY5MywtMTc0OTA4OTUwOSw0MD
+Y2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5Mzg4ODMz
+OTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNCwxNjEzMz
+Y1Njc3LDczMDk5ODExNl19
 -->
