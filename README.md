@@ -28,24 +28,25 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 ### ポートフォリオ
-#### /Mahjong
+#### [/Mahjong](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Mahjong)
 - 対戦の組み合わせを考慮した麻雀の実力分析（python/pystan）
 - 作成年月：2020/11
-#### /RevenueManagement
+#### [/RevenueManagement]((https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement))
 - 需要予測に基づく案件受注判断の高度化（python/sklearn/pulp）
 - 作成年月：2020/12
-#### /TweetTopicAnalysis
+#### [/TweetTopicAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TweetTopicAnalysis)
 - Twitterのトピック分析（python/）
 - 作成年月：2020/07
-#### /BlogKPIAnalysis
+#### [/BlogKPIAnalysis]((https://github.com/MizusakoSadanobu/Portfolio/tree/master/BlogKPIAnalysis))
 - Google Analytics API, Twitter APIによるKPI分析（python/a）
 - 作成年月：2020/07
-#### /Othero
+#### [/Othero](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Othero)
 - 自作のオセロゲーム（c++/opengl）
 - 作成年月：2018/04
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NjU1ODMyLDE3MTg0ODA0ODcsLTEyMz
-IyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMjYwOCwyMzc5MDQ1NTgs
-MjcwMzA4MjQsMTYxMzM2NTY3Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDkwODk1MDksNDA2NjU1ODMyLDE3MT
+g0ODA0ODcsLTEyMzIyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMjYw
+OCwyMzc5MDQ1NTgsMjcwMzA4MjQsMTYxMzM2NTY3Nyw3MzA5OT
+gxMTZdfQ==
 -->
