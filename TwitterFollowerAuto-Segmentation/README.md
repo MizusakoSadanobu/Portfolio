@@ -1,9 +1,9 @@
 ### これは何か
 - Twitterのフォロワーさんのロイヤリティ向上を目的として、フォロワーさんから自分へのアクション\*/自分からのアクション\*の状況によってセグメント分けし、推奨アクション別にリストに振り分けるようなpythonプログラムです
 	- \* ここで、アクションとは、返信、いいね、RT（含む引用RT）を指しています。中でも、自分が運営するブログのリンクを含むツイートに対するアクションは特別なものと考えています
-- セグメント分けの方法をもう少し具体的に説明すると、以下の図に示す通り、フォロワーさんを**「ロイヤリティ」**と**「思い思われのステータス」**の2つの指標でセグメント分けしています
+- セグメント分けの方法をもう少し具体的に説明すると、以下の図に示す通り、フォロワーさんを**「ロイヤリティ」と「思い思われのステータス」**の2つの指標でセグメント分けしています
 	- フォロワーさんの**「ロイヤリティ」**を、「アカウントのブログ関連のTweetにアクションしてくれるかどうか、で計測しています
-	- また、フォロワーさんの**「思い思われのステータス」**を、**「アカウント主からフォロワーさんへのアクションの有無」**と「フォロワーさんからアカウント主へのアクションの有無」、で計測しています
+	- また、フォロワーさんの**「思い思われのステータス」**を「アカウント主からフォロワーさんへのアクションの有無」と「フォロワーさんからアカウント主へのアクションの有無」、で計測しています
 
 ![](http://drive.google.com/uc?export=view&id=18NOlzZjUB4WEMuk6rME38fCXrMu9Ijdf)
 
@@ -122,8 +122,8 @@ make_report(df_potential_followers_status_master, str_today, file_path)
 	- 1ヶ月間、リストを使わず通常運用した際のログを取得し続けて、
 	- その後1ヶ月で、リスト運用に切り替えて効果を計測する
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2Nzk1MjU2LC0xMjc4MTU1ODk5LC0yMD
-YwNDg0ODIyLDIwNTQwODEzMzYsMTg4MzgyOTU4NCw2NDg2MjE3
-NzYsLTk0Mzg0MDU2NSwtMTkzNTkwNTYxNCw2ODk2NTMwNTEsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTk4NzgyOTY2NywtMTI3ODE1NTg5OSwtMj
+A2MDQ4NDgyMiwyMDU0MDgxMzM2LDE4ODM4Mjk1ODQsNjQ4NjIx
+Nzc2LC05NDM4NDA1NjUsLTE5MzU5MDU2MTQsNjg5NjUzMDUxLD
+czMDk5ODExNl19
 -->
