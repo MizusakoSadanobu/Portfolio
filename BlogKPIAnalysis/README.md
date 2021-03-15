@@ -45,7 +45,7 @@ params = {
 }
 ```
 
-- 最後に、クラスをインスタンス化して、以下のように実行すればデータ取得〜可視化が行えます
+- 最後に、クラスをインスタンス化して、上記で紹介したメンバ関数を実行すればデータ取得〜可視化が行えます
 
 ```python:
 egad_1week = ExtractGoogleAnalyticsData(params)
@@ -54,8 +54,15 @@ egad_1week.get_report()
 egad_1week.plot_data()
 ```
 
+### 最後に
+- 今回は簡単な可視化例しか紹介していませんが、Twitterなどの集客媒体の状況と組み合わせて分析を行うことにより、多角的に現状や課題を把握することができるようになります
+- アカウント主が運営するブログとブログ集客用の
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQt2zoxZwjD43BAIjmRKjW_BLa8LWXc3mtShlplI7GWbjwmGcIazDBmiN2BLAjLs6z4Q70ebnCxu21T/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MTU4NzI4LDgzMzM4OTU3MiwtMjYzMz
-YxMzQsLTUyNDQ4NzMxNCwxMjk2OTAzNDc2LC04ODE5NDg0Njks
-MTcxNTY4MDQ5MSwtMTQ4OTg1MjY3Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzU2ODQzNTU3LDQ3NTE1ODcyOCw4MzMzOD
+k1NzIsLTI2MzM2MTM0LC01MjQ0ODczMTQsMTI5NjkwMzQ3Niwt
+ODgxOTQ4NDY5LDE3MTU2ODA0OTEsLTE0ODk4NTI2NzYsNzMwOT
+k4MTE2XX0=
 -->
