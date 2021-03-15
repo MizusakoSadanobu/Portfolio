@@ -1,5 +1,103 @@
 ### これは何か
-- Twitterでフォローしているアカウントが、どんな時間・曜日にどんなトピックを呟いているのか、トピック分析モデルの1つであるLDAを使って分析したものです。
+- Twitterでフォローしているアカウントが、どんな時間・曜日にどんなトピックを呟いているのか、トピック分析モデルの1つであるLDAを使って分析したものです
+
+### どのように分析したか
+- 実施したのは以下の内容です
+	- Twitter APIによるデータ取得
+	- MeCabによる形態素解析
+	- gensim (LDA)によるトピックモデル構築
+	- トピック毎の出現傾向の可視化
+
+
+#### Twitter APIによるデータ取得：
+- フォローしている400名の過去200件のツイートについて、以下の項目を取得しています
+	- user_id（ツイート主のid）
+	- created_at（ツイート日時）
+	- tweet id（ツイートid）
+	- text（ツイート文章）
+	- followers_count（ツイート主のフォロワー数）
+	- friends_count（ツイート主のフォロー数）
+	- retweet_count（ツイートがリツイートされた数）
+	- favorite_count（ツイートがいいねされた数）、など
+- 今回紹介する分析では、created_at（ツイート日時）、text（ツイート文章）があれば十分です。アカウント主は、今回の分析を発展させて、「どんな時間にどんなトピックを投稿すると、よりいいねやリツイートなどの反応をもらいやすいのか」、という分析を行いたいと思ったので、その他の項目も取得しています
+
+#### MeCabによる形態素解析：
+- MeCabを使ってtextを単語の集合に変換します
+
+```python
+import MeCab
+from gensim.corpora.dictionary import Dictionary
+from gensim.models import LdaModel
+from collections import defaultdict
+from gensim import corpora
+
+# MeCabオブジェクトの生成
+mt = MeCab.Tagger('')
+mt.parse('')
+
+# 形態素解析
+import re
+def format_text(text):
+    '''
+    MeCabに入れる前のツイートの整形方法例
+    '''
+
+    text=re.sub(r'https?://[\w/:%#\$&\?\(\)~\.=\+\-…]+', "", text)
+    text=re.sub('RT', "", text)
+    text=re.sub('お気に入り', "", text)
+    text=re.sub('まとめ', "", text)
+    text=re.sub(r'[!-~]', "", text)#半角記号,数字,英字
+    text=re.sub(r'[︰-＠]', "", text)#全角記号
+    text=re.sub('\n', " ", text)#改行文字
+
+    return text
+
+text_list=list(df['t_text']) #df['t_text']はツイート文章が並んだSeries型のオブジェクト
+dictionary =corpora.Dictionary([text_list])
+train_texts = []
+for line in text_list:
+    text = []
+    line = format_text(line)
+    node = mt.parseToNode(line.strip())
+    while node:
+        fields = node.feature.split(",")
+        if fields[0] == '名詞' or fields[0] == '動詞' or fields[0] == '形容詞':
+            text.append(node.surface)
+        node = node.next
+    train_texts.append(text)
+```
+
+
+
+#### gensim (LDA)によるトピックモデル構築：
+- 前述の単語の集合データを使ってトピックモデルを構築します
+```python
+# トピック数の設定
+NUM_TOPICS = 20
+
+# ldaモデルの生成
+dictionary = Dictionary(train_texts)
+
+dictionary.filter_extremes(no_below=2,no_above=0.2)
+dictionary.save_as_text('最終辞書.txt')
+
+# 学習データでモデル生成
+corpus = [dictionary.doc2bow(text) for text in train_texts]
+lda = LdaModel(corpus=corpus, num_topics=NUM_TOPICS, id2word=dictionary)
+
+# テストデータ（=学習データと同じもの）をモデルに掛ける
+score_by_topic = defaultdict(int)
+test_corpus = [dictionary.doc2bow(text) for text in train_texts]
+```
+
+#### トピック毎の出現傾向の可視化：
+- 時間帯毎、曜日毎のトピックの出現状況を可視化して、どんな時間帯・曜日にどんなトピックが呟かれやすいのかを把握します。例えば、以下は時間帯毎のトピックの出現状況ですが、「Topic11: 動画で勉強するでございます」などのように特定の時間帯に出現する/しないトピックが見受けられます
+
+![topic_by_hour](http://drive.google.com/uc?export=view&id=1kzmRN5o-bfkmXJDeUxGtMl-MjgY9ori4)
+
+- なお、LDAでは分類したトピックの意味合いを自分で考察する必要がありますので、以下のようにトピック毎に代表される単語を抽出してトピックの名称を与えています
+
+![topic_by_hour](http://drive.google.com/uc?export=view&id=1e5mfa0-JZRB0YUOftFSIKrPc_DX9XUNE)
 
 ### 参考文献
 - [Pythonで余計な文字列を削除する方法](https://hacknote.jp/archives/19937/)
@@ -12,5 +110,6 @@
 - [Googleが公開した自然言語処理の最新技術、BERTとは何者なのか](https://ai-scholar.tech/articles/text-mining/bert-ai-93)
 - [BERTとは｜Googleが誇る自然言語処理モデルの特徴、仕組みを解説](https://ledge.ai/bert/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDc3NDk2Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjMxNDA3OTM0LDcwMDQyOTI5OSwtNTk0Nz
+c0OTYzLDczMDk5ODExNl19
 -->
