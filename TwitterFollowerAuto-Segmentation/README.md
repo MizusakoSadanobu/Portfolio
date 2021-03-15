@@ -14,7 +14,7 @@
 
 ![](http://drive.google.com/uc?export=view&id=1LQB6HtzjyvGGE0EVxKdTmKO2ftjWCoN2)
 
-- なお、本プログラムの構成は以下の通りです
+- なお、本プログラムの構成は以下の通りとなっています
 	- [./main.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/main.py) 実行ファイル（詳細後述）
 	- [./lib/my_common.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/lib/my_common.py) 共通の変数やモジュールなどの設定
 	- [./lib/my_get_data.py]() 自分の投稿データ、フォロワーの投稿データの取得を取得するためのモジュール
@@ -81,10 +81,10 @@ df_favs = make_df_favs(my_favs, my_screen_name)
 
 # アクション済みユーザーの一覧化（フォローしている/されている、自分が返信/RT/いいねした人）
 df_potential_followers = make_df_potential_followers(df_friends,
-													df_followers,
-													df_posts, 
-													df_favs,
-													my_screen_name)
+				df_followers,
+				df_posts, 
+				df_favs,
+				my_screen_name)
 
 # ユーザーデータ（投稿、いいね）の取得
 (df_user_posts, df_user_favs) = get_users_data(df_potential_followers)
@@ -122,7 +122,8 @@ make_report(df_potential_followers_status_master, str_today, file_path)
 	- 1ヶ月間、リストを使わず通常運用した際のログを取得し続けて、
 	- その後1ヶ月で、リスト運用に切り替えて効果を計測する
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNDA4MTQ1LC0yMDYwNDg0ODIyLDIwNT
-QwODEzMzYsMTg4MzgyOTU4NCw2NDg2MjE3NzYsLTk0Mzg0MDU2
-NSwtMTkzNTkwNTYxNCw2ODk2NTMwNTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNzgxNTU4OTksLTIwNjA0ODQ4MjIsMj
+A1NDA4MTMzNiwxODgzODI5NTg0LDY0ODYyMTc3NiwtOTQzODQw
+NTY1LC0xOTM1OTA1NjE0LDY4OTY1MzA1MSw3MzA5OTgxMTZdfQ
+==
 -->
