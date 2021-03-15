@@ -97,7 +97,12 @@ test_corpus = [dictionary.doc2bow(text) for text in train_texts]
 
 - なお、LDAでは分類したトピックの意味合いを自分で考察する必要がありますので、以下のようにトピック毎に代表される単語を抽出してトピックの名称を与えています
 
-![topic_by_hour](http://drive.google.com/uc?export=view&id=1e5mfa0-JZRB0YUOftFSIKrPc_DX9XUNE)
+```python
+# topi12: 積み上げ頑張る
+i=12
+topic_word_prob[i].head(10)
+```
+![topic_by_hour](http://drive.google.com/uc?export=view&id=18dYJkyVFd_emtql6LmKYqGlr1OC1NEws)
 
 ### 参考文献
 - [Pythonで余計な文字列を削除する方法](https://hacknote.jp/archives/19937/)
@@ -110,6 +115,6 @@ test_corpus = [dictionary.doc2bow(text) for text in train_texts]
 - [Googleが公開した自然言語処理の最新技術、BERTとは何者なのか](https://ai-scholar.tech/articles/text-mining/bert-ai-93)
 - [BERTとは｜Googleが誇る自然言語処理モデルの特徴、仕組みを解説](https://ledge.ai/bert/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNDA3OTM0LDcwMDQyOTI5OSwtNTk0Nz
-c0OTYzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTA5MjE3MjkxNiwyMzE0MDc5MzQsNzAwND
+I5Mjk5LC01OTQ3NzQ5NjMsNzMwOTk4MTE2XX0=
 -->
