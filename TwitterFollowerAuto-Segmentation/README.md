@@ -14,6 +14,15 @@
 
 ![](http://drive.google.com/uc?export=view&id=1LQB6HtzjyvGGE0EVxKdTmKO2ftjWCoN2)
 
+- なお、本プログラムの構成は以下の通りです
+	- [./main.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/main.py) 実行ファイル（詳細後述）
+	- [./lib/my_common.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/lib/my_common.py) 共通の変数やモジュールなどの設定
+	- [./lib/my_get_data.py]() 自分の投稿データ、フォロワーの投稿データの取得を取得するためのモジュール
+	- [./lib/my_transform_to_df.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/lib/my_transform_to_df.py) 投稿データをデータフレーム型に変換するためのモジュール
+	- [./lib/my_make_master.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/lib/my_make_master.py) 取得した各種データからマスタデータ（日毎のウォッチ対象ユーザー、日毎×ユーザー毎のステータス、自分やユーザーの投稿情報）を作成するモジュール
+	- [./lib/my_make_list.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/lib/my_make_list.py) マスターデータからフォロワーをセグメント分けしてリストを更新するためのモジュール
+	- [./my_make_report.py](https://github.com/MizusakoSadanobu/Portfolio/blob/master/TwitterFollowerAuto-Segmentation/lib/my_make_report.py) KPIを集計してグラフを出力するためのモジュール
+
 ### なぜ作ったのか
 - アカウント主は運営するブログへの集客を目的としてTwitterを活用しています（最近はほとんどノータッチになってしまいましたが。。）
 - アカウント主は、特段発信力に長けているわけではないため、一方的に情報を発信するよりも、フォロワーさんと双方向的な関係を築くことが大事だと考えており、Twitterのリスト機能（フォロワーを管理する機能）を使い、フォロワーさんを管理していました
@@ -39,19 +48,18 @@
 	- 自分の投稿のうち、自分のブログのリンクが貼られているものに対して、いいねやRT、返信をくれたユーザーを識別したいため、ブログのリンクをmy_urlsという変数に持たせています
 ```python
 # モジュールの読み込み
-## 共通で使うモジュール、変数の読み込み
 from my_common import *
 ## 自分の投稿データ、フォロワーの投稿データの取得を取得するためのモジュール
 from my_get_data import get_my_data, get_users_data
 ## 投稿データをデータフレーム型に変換するためのモジュール
 from my_transform_to_df import (make_df_users, 
-								make_df_posts, 
-								make_df_favs, 						
-								make_df_potential_followers)
+					make_df_posts, 
+					make_df_favs, 						
+					make_df_potential_followers)
 ## 取得した各種データからマスタデータ（日毎のウォッチ対象ユーザー、日毎×ユーザー毎のステータス、自分やユーザーの投稿情報）を作成するモジュール
 from my_make_master import (make_df_potential_followers_master,
-							make_df_user_log_master,
-							make_df_potential_followers_status_master)
+					make_df_user_log_master,
+					make_df_potential_followers_status_master)
 ## マスターデータからフォロワーをセグメント分けしてリストを更新するためのモジュール
 from my_make_list import my_make_list
 ## KPIを集計してグラフを出力するためのモジュール
@@ -114,7 +122,7 @@ make_report(df_potential_followers_status_master, str_today, file_path)
 	- 1ヶ月間、リストを使わず通常運用した際のログを取得し続けて、
 	- その後1ヶ月で、リスト運用に切り替えて効果を計測する
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA0ODQ4MjIsMjA1NDA4MTMzNiwxOD
-gzODI5NTg0LDY0ODYyMTc3NiwtOTQzODQwNTY1LC0xOTM1OTA1
-NjE0LDY4OTY1MzA1MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMzEzNDA4MTQ1LC0yMDYwNDg0ODIyLDIwNT
+QwODEzMzYsMTg4MzgyOTU4NCw2NDg2MjE3NzYsLTk0Mzg0MDU2
+NSwtMTkzNTkwNTYxNCw2ODk2NTMwNTEsNzMwOTk4MTE2XX0=
 -->
