@@ -7,10 +7,10 @@
 - 需要予測に基づく案件受注判断の高度化（python/sklearn/pulp）
 - 作成年月：2020/12
 #### [/TweetTopicAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TweetTopicAnalysis)
-- Twitterのトピック分析（python/）
+- Twitterのトピック分析（python/mecab/gensim (LDA)/twitter api）
 - 作成年月：2020/07
 #### [/BlogKPIAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/BlogKPIAnalysis)
-- Google Analytics API, Twitter APIによるKPI分析（python/a）
+- Google Analytics APIによるKPI分析（python/google analytics api）
 - 作成年月：2020/07
 #### [/Othero](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Othero)
 - 自作のオセロゲーム（c++/opengl）
@@ -45,8 +45,9 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgwODEsLTUzNDczMTY5MywtMTc0OT
-A4OTUwOSw0MDY2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1
-MSw5Mzg4ODMzOTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMD
-gyNCwxNjEzMzY1Njc3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODQ4NjEwMjAwLC0xOTg4MDgxLC01MzQ3Mz
+E2OTMsLTE3NDkwODk1MDksNDA2NjU1ODMyLDE3MTg0ODA0ODcs
+LTEyMzIyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMjYwOCwyMzc5MD
+Q1NTgsMjcwMzA4MjQsMTYxMzM2NTY3Nyw3MzA5OTgxMTZdfQ==
+
 -->
