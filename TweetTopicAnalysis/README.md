@@ -3,7 +3,8 @@
 
 ### なぜ分析したのか
 - アカウント主はデータサイエンス関連のブログを運営しており、ブログへの集客を目的としてTwitterへの投稿を行っていました
-- 時間帯によってツイートへのリアクションに差があることを体感していましたが、データサイエンス以外のネタも投稿していたので、どんなトピックがどんな時間帯に反応されやすいのか、定量的に把握したいと
+- 時間帯によってツイートへのリアクションに差があることを体感していましたが、データサイエンス以外のネタも投稿していたので、どんなトピックがどんな時間帯に反応されやすいのか、定量的に把握したいというモチベーションがありました。あわよくば、自動でtweetのトピックを判別して最適な時間帯に投稿予約するシステムを開発したいと思っていました
+- 「反応されやすさ」を計測する前に、基礎知識として「投稿されやすさ」を理解しておこうと考え、このような分析に至りました
 
 ### どのように分析したか
 - 実施したのは以下の内容です
@@ -118,6 +119,7 @@ topic_word_prob[12].head(10)
 - [Googleが公開した自然言語処理の最新技術、BERTとは何者なのか](https://ai-scholar.tech/articles/text-mining/bert-ai-93)
 - [BERTとは｜Googleが誇る自然言語処理モデルの特徴、仕組みを解説](https://ledge.ai/bert/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTQ1NzMwNywyMzE0MDc5MzQsNzAwND
-I5Mjk5LC01OTQ3NzQ5NjMsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTU1MzYzNDc4MCwxNzE2OTY4NTE1LDIzMT
+QwNzkzNCw3MDA0MjkyOTksLTU5NDc3NDk2Myw3MzA5OTgxMTZd
+fQ==
 -->
