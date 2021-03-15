@@ -59,24 +59,30 @@ egad_1week.plot_data()
 - アカウント主が運営するブログとブログ集客用のTwitterのデータを組み合わせた事例を[スライド](https://docs.google.com/presentation/d/e/2PACX-1vQt2zoxZwjD43BAIjmRKjW_BLa8LWXc3mtShlplI7GWbjwmGcIazDBmiN2BLAjLs6z4Q70ebnCxu21T/embed?start=false&loop=false&delayms=3000)にまとめているのでよろしければご覧ください
 #### スライド一部抜粋
 - 分析の全体像
+
 ![daily](http://drive.google.com/uc?export=view&id=1ND1dV2eJHwkmu0r7XAe9mwJw4umQfyqK)
 
 - 分析のサマリー
+
 ![daily](http://drive.google.com/uc?export=view&id=10vY21TGj8R4Aw7PuW3zTzusZ1TzZNoeC)
 
 - 分析①KPI分析：KPI構造
+
 ![daily](http://drive.google.com/uc?export=view&id=1gugf99ePTHm9jf6xk4J3O5ctA0e_ta50)
 
 - 分析①KPI分析：KPIの推移状況
+
 ![daily](http://drive.google.com/uc?export=view&id=1i_uehZytiLS4MDyTu_bxbC4ya9J_kX5Y)
 
 - 分析②イケてる記事分析
+
 ![daily](http://drive.google.com/uc?export=view&id=1v0-2h4LPQjsQbvVca8Y02d8JlJMlPYsn)
 
 - 分析③良質Tweet分析
+
 ![daily](http://drive.google.com/uc?export=view&id=18gCU3dldWl09LmkTKpQigb70DkU1zFJV)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODAwMjU2Myw1NTI1Njk2OTgsNDc1MT
+eyJoaXN0b3J5IjpbLTUxOTE1NDU2Myw1NTI1Njk2OTgsNDc1MT
 U4NzI4LDgzMzM4OTU3MiwtMjYzMzYxMzQsLTUyNDQ4NzMxNCwx
 Mjk2OTAzNDc2LC04ODE5NDg0NjksMTcxNTY4MDQ5MSwtMTQ4OT
 g1MjY3Niw3MzA5OTgxMTZdfQ==
