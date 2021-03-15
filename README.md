@@ -8,6 +8,10 @@
 - ダイナミックプライシング理論を応用した案件受注判断AI構築
 - 使用言語など：python/sklearn/pulp
 - 作成年月：2020/12
+#### [/TwitterFollowerAuto-Segmentation]()
+- Twitter APIによるフォロワーセグメンテーションと推奨アクション別にリスト振り分けを自動化
+- 使用言語など：python/twitter api
+- 作成年月：2020/08
 #### [/TweetTopicAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TweetTopicAnalysis)
 - Twitter APIで取得したツイートデータに対するトピック分析
 - 使用言語など：python/mecab/gensim (LDA)/twitter api
@@ -50,9 +54,9 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzIyNDE1Niw3ODE5MzUwMyw4NDg2MT
-AyMDAsLTE5ODgwODEsLTUzNDczMTY5MywtMTc0OTA4OTUwOSw0
-MDY2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5Mzg4OD
-MzOTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNCwxNjEz
-MzY1Njc3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjQxNTY3OTM4LDEwMzcyMjQxNTYsNzgxOT
+M1MDMsODQ4NjEwMjAwLC0xOTg4MDgxLC01MzQ3MzE2OTMsLTE3
+NDkwODk1MDksNDA2NjU1ODMyLDE3MTg0ODA0ODcsLTEyMzIyOT
+I1NTEsOTM4ODgzMzk2LDI3MzQzMjYwOCwyMzc5MDQ1NTgsMjcw
+MzA4MjQsMTYxMzM2NTY3Nyw3MzA5OTgxMTZdfQ==
 -->

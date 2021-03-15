@@ -1,7 +1,7 @@
 ### これは何か
 - ダイナミックプライシングの理論を応用して、案件受注判断を行うAIを構築したものです。仮想のデータに対して、AIを構築し、パフォーマンスの検証を行いました
 	- [./DynamicOptimization.ipynb](https://github.com/MizusakoSadanobu/Portfolio/blob/master/RevenueManagement/DynamicOptimization.ipynb) 動的計画法による期待収益予測に基づき案件受注判断を行うAI構築
-	- [./MachineLearning.ipynb]() 機械学習モデルによる期待収益予測に基づき案件受注判断を行うAI構築
+	- [./MachineLearning.ipynb](https://github.com/MizusakoSadanobu/Portfolio/blob/master/RevenueManagement/MachineLearning.ipynb) 機械学習モデルによる期待収益予測に基づき案件受注判断を行うAI構築
 
 ### なぜ分析したのか
 - 稼働率ビジネス（初期投資が大きい資産を使って収益を得るビジネス）ではプライシングが非常に重要だと言われています。アカウント主の勤め先はコングロマリット企業であり、稼働率ビジネスも多く手掛けており、ダイナミックプライシングの導入機会が大きいと考えています
@@ -80,7 +80,7 @@ A New Approach and Application in the Hotel
 Industry](https://pdfs.semanticscholar.org/f3f3/3cf3bfb639e5ec35392c3b435f6e746f3c19.pdf)
 - [レベニューマネジメント：収益管理の基礎からダイナミックプライシングまで](https://www.amazon.co.jp/%E3%83%AC%E3%83%99%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88-%E5%8F%8E%E7%9B%8A%E7%AE%A1%E7%90%86%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%81%8B%E3%82%89%E3%83%80%E3%82%A4%E3%83%8A%E3%83%9F%E3%83%83%E3%82%AF%E3%83%97%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%B3%E3%82%B0%E3%81%BE%E3%81%A7-%E4%BD%90%E8%97%A4-%E5%85%AC%E4%BF%8A-ebook/dp/B08TBP81DM)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjM0NTc4MCwtMTczMDcwODA3OSwtMT
+eyJoaXN0b3J5IjpbLTI1NDA2ODMyNCwtMTczMDcwODA3OSwtMT
 YxMDM4MjY2OCwtMTI3NjIyNTU4OCwtNjM5NTAwMTMxLDgzNTEy
 ODMwNiw1Nzg4MDM1NDIsLTExODU4NDUxMzYsNzMwOTk4MTE2XX
 0=
