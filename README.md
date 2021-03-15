@@ -1,19 +1,24 @@
 ### これは何か
 - アカウント主のポートフォリオをまとめたgitアカウントです
 #### [/Mahjong](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Mahjong)
-- 対戦の組み合わせを考慮した麻雀の実力分析（python/pystan）
+- 対戦の組み合わせを考慮した麻雀の実力分析
+- 使用言語など：python/pystan
 - 作成年月：2020/11
 #### [/RevenueManagement](https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement)
-- ダイナミックプライシング理論を応用した案件受注判断AI構築（python/sklearn/pulp）
+- ダイナミックプライシング理論を応用した案件受注判断AI構築
+- 使用言語など：python/sklearn/pulp
 - 作成年月：2020/12
 #### [/TweetTopicAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TweetTopicAnalysis)
-- Twitterのトピック分析（python/mecab/gensim (LDA)/twitter api）
+- Twitter APIで取得したツイートデータに対するトピック分析
+- 使用言語など：python/mecab/gensim (LDA)/twitter api
 - 作成年月：2020/07
 #### [/BlogKPIAnalysis](https://github.com/MizusakoSadanobu/Portfolio/tree/master/BlogKPIAnalysis)
-- Google Analytics APIによるKPI分析（python/google analytics api）
+- Google Analytics APIによるKPI分析
+- 使用言語など：python/google analytics api
 - 作成年月：2020/07
 #### [/Othero](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Othero)
-- 自作のオセロゲーム（c++/opengl）
+- 自作のオセロゲーム
+- 使用言語など：c++/opengl
 - 作成年月：2018/04
 
 
@@ -45,9 +50,9 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxOTM1MDMsODQ4NjEwMjAwLC0xOTg4MD
-gxLC01MzQ3MzE2OTMsLTE3NDkwODk1MDksNDA2NjU1ODMyLDE3
-MTg0ODA0ODcsLTEyMzIyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMj
-YwOCwyMzc5MDQ1NTgsMjcwMzA4MjQsMTYxMzM2NTY3Nyw3MzA5
-OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTAzNzIyNDE1Niw3ODE5MzUwMyw4NDg2MT
+AyMDAsLTE5ODgwODEsLTUzNDczMTY5MywtMTc0OTA4OTUwOSw0
+MDY2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5Mzg4OD
+MzOTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNCwxNjEz
+MzY1Njc3LDczMDk5ODExNl19
 -->
