@@ -1,13 +1,13 @@
 ### これは何か
-- アカウント主のポートフォリオをまとめたgitアカウントです
-#### [/Mahjong](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Mahjong)
-- 対戦の組み合わせを考慮した麻雀の実力分析
-- 使用言語など：python/pystan
-- 作成年月：2020/11
+- アカウント主のポートフォリオをまとめたgitリポジトリです
 #### [/RevenueManagement](https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement)
 - ダイナミックプライシング理論を応用した案件受注判断AI構築
 - 使用言語など：python/sklearn/pulp
 - 作成年月：2020/12
+#### [/Mahjong](https://github.com/MizusakoSadanobu/Portfolio/tree/master/Mahjong)
+- 対戦の組み合わせを考慮した麻雀の実力分析
+- 使用言語など：python/pystan
+- 作成年月：2020/11
 #### [/TwitterFollowerAuto-Segmentation](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TwitterFollowerAuto-Segmentation)
 - Twitter APIによるフォロワーセグメンテーションと推奨アクション別にリスト振り分けを自動化
 - 使用言語など：python/twitter api
@@ -54,7 +54,7 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTI2OTEwNywyNDE1Njc5MzgsMTAzNz
+eyJoaXN0b3J5IjpbMTM0NjEwMzYyNCwyNDE1Njc5MzgsMTAzNz
 IyNDE1Niw3ODE5MzUwMyw4NDg2MTAyMDAsLTE5ODgwODEsLTUz
 NDczMTY5MywtMTc0OTA4OTUwOSw0MDY2NTU4MzIsMTcxODQ4MD
 Q4NywtMTIzMjI5MjU1MSw5Mzg4ODMzOTYsMjczNDMyNjA4LDIz
