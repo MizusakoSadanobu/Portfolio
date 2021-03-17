@@ -27,7 +27,7 @@
 
 
 
-### アカウント主は何者か
+### 作ったのは誰か
 #### 経歴
 - **2019/2-現在: 事業会社のデータサイエンティストとして以下のプロジェクトに参画**
 	- レンタル事業における在庫最適化
@@ -54,10 +54,10 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjEwMzYyNCwyNDE1Njc5MzgsMTAzNz
-IyNDE1Niw3ODE5MzUwMyw4NDg2MTAyMDAsLTE5ODgwODEsLTUz
-NDczMTY5MywtMTc0OTA4OTUwOSw0MDY2NTU4MzIsMTcxODQ4MD
-Q4NywtMTIzMjI5MjU1MSw5Mzg4ODMzOTYsMjczNDMyNjA4LDIz
-NzkwNDU1OCwyNzAzMDgyNCwxNjEzMzY1Njc3LDczMDk5ODExNl
-19
+eyJoaXN0b3J5IjpbNzQzMjk5Mjg3LDEzNDYxMDM2MjQsMjQxNT
+Y3OTM4LDEwMzcyMjQxNTYsNzgxOTM1MDMsODQ4NjEwMjAwLC0x
+OTg4MDgxLC01MzQ3MzE2OTMsLTE3NDkwODk1MDksNDA2NjU1OD
+MyLDE3MTg0ODA0ODcsLTEyMzIyOTI1NTEsOTM4ODgzMzk2LDI3
+MzQzMjYwOCwyMzc5MDQ1NTgsMjcwMzA4MjQsMTYxMzM2NTY3Ny
+w3MzA5OTgxMTZdfQ==
 -->
