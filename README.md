@@ -1,5 +1,10 @@
 ### これは何か
 - アカウント主のポートフォリオをまとめたgitリポジトリです
+
+#### [/StockTrade](https://github.com/MizusakoSadanobu/Portfolio/tree/master/StockTrade)
+- 株取引を行う機械学習モデル構築
+- 使用言語など：python/sklearn
+- 作成年月：2021/2
 #### [/RevenueManagement](https://github.com/MizusakoSadanobu/Portfolio/tree/master/RevenueManagement)
 - ダイナミックプライシング理論を応用した案件受注判断AI構築
 - 使用言語など：python/sklearn/pulp
@@ -54,10 +59,10 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMjk5Mjg3LDEzNDYxMDM2MjQsMjQxNT
-Y3OTM4LDEwMzcyMjQxNTYsNzgxOTM1MDMsODQ4NjEwMjAwLC0x
-OTg4MDgxLC01MzQ3MzE2OTMsLTE3NDkwODk1MDksNDA2NjU1OD
-MyLDE3MTg0ODA0ODcsLTEyMzIyOTI1NTEsOTM4ODgzMzk2LDI3
-MzQzMjYwOCwyMzc5MDQ1NTgsMjcwMzA4MjQsMTYxMzM2NTY3Ny
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTUyNDIyODA5OSw3NDMyOTkyODcsMTM0Nj
+EwMzYyNCwyNDE1Njc5MzgsMTAzNzIyNDE1Niw3ODE5MzUwMyw4
+NDg2MTAyMDAsLTE5ODgwODEsLTUzNDczMTY5MywtMTc0OTA4OT
+UwOSw0MDY2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5
+Mzg4ODMzOTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNC
+wxNjEzMzY1Njc3LDczMDk5ODExNl19
 -->

@@ -2,6 +2,8 @@
 ### これは何か
 - 日経225の過去日足データから、将来の値動きを予測し、儲けるAIです
 - 対象銘柄について、日々の始値で売り・中立・買い（空売り）を行い、終値でポジションを精算することを想定し、①どのポジションに賭けるのか、②いくら賭けるのか、を判定する機械学習モデルを構築しました
+	- [./StockTradeMetaLabelModel.ipynb](https://github.com/MizusakoSadanobu/Portfolio/blob/master/StockTrade/StockTradeMetaLabelModel.ipynb) AI構築/評価を行ったノートブック
+	- [./nikkei225.csv](https://github.com/MizusakoSadanobu/Portfolio/blob/master/StockTrade/nikkei225.csv) nikkei225の日足データ（pandas_datareaderのstooqメソッドで取得）
 
 ### なぜ作ったのか
 - 儲けたいという安易なモチベーションよるものです
@@ -72,6 +74,6 @@
 - [ファイナンス機械学習](https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%B3%E3%82%B9%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E2%80%95%E9%87%91%E8%9E%8D%E5%B8%82%E5%A0%B4%E5%88%86%E6%9E%90%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%B7%B5-%E3%83%9E%E3%83%AB%E3%82%B3%E3%82%B9%E3%83%BB%E3%83%AD%E3%83%9A%E3%82%B9%E3%83%BB%E3%83%87%E3%83%BB%E3%83%97%E3%83%A9%E3%83%89-ebook/dp/B0834XJQTY)
 - [アセットマネージャーのためのファイナンス機械学習](https://www.amazon.co.jp/dp/B08QTX81PF/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2NzQyNzcsLTEzNjc1NTkwMzksNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3NTk5ODYyODYsNjA2NzQyNzcsLTEzNj
+c1NTkwMzksNzMwOTk4MTE2XX0=
 -->
