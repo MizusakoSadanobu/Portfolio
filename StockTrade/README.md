@@ -42,11 +42,14 @@
 ### 儲かりそうか
 - このロジックにより年間30%程度のリターンが見込める結果が出たのですが、先ほど述べたパラメータ設定に詰めの甘さがあるため、身銭を切って投資をすることに恐怖を感じている次第です。。
  - 以下の図が、評価期間で選定した上位銘柄のテスト期間でのパフォーマンスです。最終損益だけに着目すると、上位5, 10, 20銘柄のいずれの場合も+50%程度の利益が出ていることが分かります（オレンジのライン）。しかし、こちらは信用取引の利息コストを考慮せずに計算してしまったものなので、実際には、30%程度のリターンになるのではないかと思います。3倍のレバレッジをかければ100%程度リターンが期待できるということですので、悪くない気がします
-	 - 評価データ上位5名柄
+
+【評価データ上位5名柄】
 ![daily](http://drive.google.com/uc?export=view&id=1mi7Cy-J-CQaz4Ywn33aBacBnLd1zlueb)
-	 - 評価データ上位10名柄
+
+【評価データ上位10名柄】
 ![daily](http://drive.google.com/uc?export=view&id=1vuW5rpLilQjLSHB_kk62bTNI96zqa8zR)
-	 - 評価データ上位20名柄
+
+【評価データ上位20名柄】
 ![daily](http://drive.google.com/uc?export=view&id=1my6xCcCXh6lCVKUZ021xxQFs7G_HH85v)
 
  - 上記の図で、青色のラインのパフォーマンスが非常に良いのですが、こちらは「評価期間でシャープレシオが上位だった銘柄の評価期間におけるパフォーマンス」ですので、ある意味良くてい当然のものです
@@ -64,6 +67,6 @@
 - [ファイナンス機械学習](https://www.amazon.co.jp/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%B3%E3%82%B9%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E2%80%95%E9%87%91%E8%9E%8D%E5%B8%82%E5%A0%B4%E5%88%86%E6%9E%90%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%B7%B5-%E3%83%9E%E3%83%AB%E3%82%B3%E3%82%B9%E3%83%BB%E3%83%AD%E3%83%9A%E3%82%B9%E3%83%BB%E3%83%87%E3%83%BB%E3%83%97%E3%83%A9%E3%83%89-ebook/dp/B0834XJQTY)
 - [アセットマネージャーのためのファイナンス機械学習](https://www.amazon.co.jp/dp/B08QTX81PF/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjgxMzkxNywtMTM2NzU1OTAzOSw3Mz
+eyJoaXN0b3J5IjpbLTc4OTgwMDMwOSwtMTM2NzU1OTAzOSw3Mz
 A5OTgxMTZdfQ==
 -->
