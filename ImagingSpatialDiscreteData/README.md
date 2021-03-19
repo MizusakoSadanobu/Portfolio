@@ -11,7 +11,7 @@
 
 ![obs](https://drive.google.com/uc?export=view&id=1FmbVsEbANJkaG-doY8l5C0EFcp4FIhXr)
 
-- 本プログラムは、以下のプログラムから構成されています
+- 本プログラムは、以下のサブプログラムから構成されています
   - [./ImagingDiscreteData.ipynb](https://github.com/MizusakoSadanobu/Portfolio/blob/master/ImagingSpatialDiscreteData/ImagingSpatialDiscreteData.ipynb): 結果の可視化用ノートブック
   - [./main.cpp](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/main.cpp): $u(x^{obs_i}, t)$ →$u(x, t)$を実行するプログラム
     - [./lib/Basic_include_file_set.h](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/Basic_include_file_set.h): 共通で利用するヘッダーファイルを定義
@@ -21,7 +21,9 @@
     - [./lib/method.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/method.hpp): 機械学習モデル（マルチアウトプットOLS/LASSO）を定義
     - [./lib/cluster.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/cluster.hpp): 機械学習モデル構築に適した形に観測データを処理するクラスを定義
     - [./lib/element.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/element.hpp): 空間分布の表現に適した形に機械学習の予測結果を処理するクラスを定義
+- データ処理の流れとサブプログラムは以下の対応関係で紐づきます
+![obs](https://drive.google.com/uc?export=view&id=1FmbVsEbANJkaG-doY8l5C0EFcp4FIhXr)1h0C32qgkFOH6xkBI6zioqVUNsAcQcQtj
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyNjQ3NzA1LDEzMDI1MDkwNDQsMTIzMj
-A1MzAwLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTk0ODMyMjI2NSw3ODI2NDc3MDUsMTMwMj
+UwOTA0NCwxMjMyMDUzMDAsNzMwOTk4MTE2XX0=
 -->
