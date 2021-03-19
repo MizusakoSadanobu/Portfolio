@@ -21,9 +21,11 @@
     - [./lib/method.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/method.hpp): 機械学習モデル（マルチアウトプットOLS/LASSO）を定義
     - [./lib/cluster.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/cluster.hpp): 機械学習モデル構築に適した形に観測データを処理するクラスを定義
     - [./lib/element.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/element.hpp): 空間分布の表現に適した形に機械学習の予測結果を処理するクラスを定義
-- データ処理の流れとサブプログラムは以下の対応関係で紐づきます
-![obs](https://drive.google.com/uc?export=view&id=1FmbVsEbANJkaG-doY8l5C0EFcp4FIhXr)1h0C32qgkFOH6xkBI6zioqVUNsAcQcQtj
+
+- 連続的な時空間分布を得るまでのデータ処理過程とサブプログラムは以下ように対応しています
+
+![obs](https://drive.google.com/uc?export=view&id=1h0C32qgkFOH6xkBI6zioqVUNsAcQcQtj)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODMyMjI2NSw3ODI2NDc3MDUsMTMwMj
+eyJoaXN0b3J5IjpbMjA0ODI2NDk0MCw3ODI2NDc3MDUsMTMwMj
 UwOTA0NCwxMjMyMDUzMDAsNzMwOTk4MTE2XX0=
 -->
