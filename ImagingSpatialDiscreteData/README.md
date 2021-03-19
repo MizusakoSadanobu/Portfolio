@@ -12,16 +12,16 @@
 ![obs](https://drive.google.com/uc?export=view&id=1FmbVsEbANJkaG-doY8l5C0EFcp4FIhXr)
 
 - 本プログラムは、以下のプログラムから構成されています
-  - [./ImagingDiscreteData.ipynb](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/ImagingDiscreteData.ipynb): 結果の可視化用ノートブック
+  - [./ImagingDiscreteData.ipynb](https://github.com/MizusakoSadanobu/Portfolio/blob/master/ImagingSpatialDiscreteData/ImagingSpatialDiscreteData.ipynb): 結果の可視化用ノートブック
   - [./main.cpp](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/main.cpp): $u(x^{obs_i}, t)$ →$u(x, t)$を実行するプログラム
-    - [./lib/Basic_include_file_set.h](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/lib/Basic_include_file_set.h): 共通で利用するヘッダーファイルを定義
-    - [./lib/basic.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/lib/basic.hpp): ファイルの読み書きなどの基本操作を定義
-    - [./lib/matrix_algebra.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/lib/matrix_algebra.hpp): 行列・テンソル操作を定義
-    - [./lib/fft.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/lib/fft.hpp): フーリエ変換関数を定義
-    - [./lib/method.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/lib/method.hpp): 機械学習モデル（マルチアウトプットOLS/LASSO）を定義
-    - [./lib/cluster.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/lib/cluster.hpp): 機械学習モデル構築に適した形に観測データを処理するクラスを定義
-    - [./lib/element.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingDiscreteData/lib/element.hpp): 空間分布の表現に適した形に機械学習の予測結果を処理するクラスを定義
+    - [./lib/Basic_include_file_set.h](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/Basic_include_file_set.h): 共通で利用するヘッダーファイルを定義
+    - [./lib/basic.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/basic.hpp): ファイルの読み書きなどの基本操作を定義
+    - [./lib/matrix_algebra.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/matrix_algebra.hpp): 行列・テンソル操作を定義
+    - [./lib/fft.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/fft.hpp): フーリエ変換関数を定義
+    - [./lib/method.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/method.hpp): 機械学習モデル（マルチアウトプットOLS/LASSO）を定義
+    - [./lib/cluster.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/cluster.hpp): 機械学習モデル構築に適した形に観測データを処理するクラスを定義
+    - [./lib/element.h(pp)](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData/lib/element.hpp): 空間分布の表現に適した形に機械学習の予測結果を処理するクラスを定義
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjUwOTA0NCwxMjMyMDUzMDAsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbNzgyNjQ3NzA1LDEzMDI1MDkwNDQsMTIzMj
+A1MzAwLDczMDk5ODExNl19
 -->
