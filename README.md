@@ -29,8 +29,12 @@
 - 自作のオセロゲーム
 - 使用言語など：c++/opengl
 - 作成年月：2018/04
+#### [/ImagingSpatialDiscreteData](https://github.com/MizusakoSadanobu/Portfolio/tree/master/ImagingSpatialDiscreteData)
+- 離散的な時空間データを補間して連続的な時空間分布を推定するプログラム
+- 使用言語など：c++
+- 作成年月：2015/03
 
-### 作ったのは誰か
+### 誰が作ったのか
 #### 経歴
 - **2019/2-現在: 事業会社のデータサイエンティストとして以下のプロジェクトに参画**
 	- レンタル事業における在庫最適化
@@ -57,10 +61,11 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjEyOTgzMzcsMTUyNDIyODA5OSw3ND
-MyOTkyODcsMTM0NjEwMzYyNCwyNDE1Njc5MzgsMTAzNzIyNDE1
-Niw3ODE5MzUwMyw4NDg2MTAyMDAsLTE5ODgwODEsLTUzNDczMT
-Y5MywtMTc0OTA4OTUwOSw0MDY2NTU4MzIsMTcxODQ4MDQ4Nywt
-MTIzMjI5MjU1MSw5Mzg4ODMzOTYsMjczNDMyNjA4LDIzNzkwND
-U1OCwyNzAzMDgyNCwxNjEzMzY1Njc3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2OTc5NTczMzYsLTE4MjEyOTgzMzcsMT
+UyNDIyODA5OSw3NDMyOTkyODcsMTM0NjEwMzYyNCwyNDE1Njc5
+MzgsMTAzNzIyNDE1Niw3ODE5MzUwMyw4NDg2MTAyMDAsLTE5OD
+gwODEsLTUzNDczMTY5MywtMTc0OTA4OTUwOSw0MDY2NTU4MzIs
+MTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5Mzg4ODMzOTYsMjczND
+MyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNCwxNjEzMzY1Njc3XX0=
+
 -->
