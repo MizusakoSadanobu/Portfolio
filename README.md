@@ -13,6 +13,10 @@
 - 対戦の組み合わせを考慮した麻雀の実力分析
 - 使用言語など：python/pystan
 - 作成年月：2020/11
+#### [/AIScholarHackathon](https://github.com/MizusakoSadanobu/Portfolio/tree/master/AIScholarHackathon)
+- メトリックラーニングによる画像データの評価（AI-Scholarハッカソンにて1位受賞）
+- 使用言語など：python/twitter api
+- 作成年月：2020/08
 #### [/TwitterFollowerAuto-Segmentation](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TwitterFollowerAuto-Segmentation)
 - Twitter APIによるフォロワーセグメンテーションと推奨アクション別にリスト振り分けを自動化
 - 使用言語など：python/twitter api
@@ -61,11 +65,11 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTIwODczNjYsLTE2OTc5NTczMzYsLT
-E4MjEyOTgzMzcsMTUyNDIyODA5OSw3NDMyOTkyODcsMTM0NjEw
-MzYyNCwyNDE1Njc5MzgsMTAzNzIyNDE1Niw3ODE5MzUwMyw4ND
-g2MTAyMDAsLTE5ODgwODEsLTUzNDczMTY5MywtMTc0OTA4OTUw
-OSw0MDY2NTU4MzIsMTcxODQ4MDQ4NywtMTIzMjI5MjU1MSw5Mz
-g4ODMzOTYsMjczNDMyNjA4LDIzNzkwNDU1OCwyNzAzMDgyNF19
-
+eyJoaXN0b3J5IjpbNzY2MDM0OTM5LC0xNjUyMDg3MzY2LC0xNj
+k3OTU3MzM2LC0xODIxMjk4MzM3LDE1MjQyMjgwOTksNzQzMjk5
+Mjg3LDEzNDYxMDM2MjQsMjQxNTY3OTM4LDEwMzcyMjQxNTYsNz
+gxOTM1MDMsODQ4NjEwMjAwLC0xOTg4MDgxLC01MzQ3MzE2OTMs
+LTE3NDkwODk1MDksNDA2NjU1ODMyLDE3MTg0ODA0ODcsLTEyMz
+IyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMjYwOCwyMzc5MDQ1NThd
+fQ==
 -->
