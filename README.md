@@ -15,8 +15,8 @@
 - 作成年月：2020/11
 #### [/AIScholarHackathon](https://github.com/MizusakoSadanobu/Portfolio/tree/master/AIScholarHackathon)
 - メトリックラーニングによる画像データの評価（AI-Scholarハッカソンにて1位受賞）
-- 使用言語など：python/twitter api
-- 作成年月：2020/08
+- 使用言語など：python/keras
+- 作成年月：2020/09
 #### [/TwitterFollowerAuto-Segmentation](https://github.com/MizusakoSadanobu/Portfolio/tree/master/TwitterFollowerAuto-Segmentation)
 - Twitter APIによるフォロワーセグメンテーションと推奨アクション別にリスト振り分けを自動化
 - 使用言語など：python/twitter api
@@ -65,11 +65,11 @@
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2MDM0OTM5LC0xNjUyMDg3MzY2LC0xNj
-k3OTU3MzM2LC0xODIxMjk4MzM3LDE1MjQyMjgwOTksNzQzMjk5
-Mjg3LDEzNDYxMDM2MjQsMjQxNTY3OTM4LDEwMzcyMjQxNTYsNz
-gxOTM1MDMsODQ4NjEwMjAwLC0xOTg4MDgxLC01MzQ3MzE2OTMs
-LTE3NDkwODk1MDksNDA2NjU1ODMyLDE3MTg0ODA0ODcsLTEyMz
-IyOTI1NTEsOTM4ODgzMzk2LDI3MzQzMjYwOCwyMzc5MDQ1NThd
-fQ==
+eyJoaXN0b3J5IjpbMTE5NTcwODI1MywtMTY1MjA4NzM2NiwtMT
+Y5Nzk1NzMzNiwtMTgyMTI5ODMzNywxNTI0MjI4MDk5LDc0MzI5
+OTI4NywxMzQ2MTAzNjI0LDI0MTU2NzkzOCwxMDM3MjI0MTU2LD
+c4MTkzNTAzLDg0ODYxMDIwMCwtMTk4ODA4MSwtNTM0NzMxNjkz
+LC0xNzQ5MDg5NTA5LDQwNjY1NTgzMiwxNzE4NDgwNDg3LC0xMj
+MyMjkyNTUxLDkzODg4MzM5NiwyNzM0MzI2MDgsMjM3OTA0NTU4
+XX0=
 -->
