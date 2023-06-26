@@ -1,5 +1,5 @@
 ### これは何か
-- アカウント主のポートフォリオをまとめたgitリポジトリです
+- Mizusako Sadanobuのポートフォリオをまとめたgitリポジトリです
 
 #### [/StockTrade](https://github.com/MizusakoSadanobu/Portfolio/tree/master/StockTrade)
 - 株取引を行う機械学習モデル構築
