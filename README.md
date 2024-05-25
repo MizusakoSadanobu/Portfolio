@@ -63,6 +63,8 @@
 - エクセルのpivot tableを用いた基礎集計
 - 財務シミュレーション
 - 日商簿記２級、ビジネス実務法務検定試験２級、証券外務員二種
+- TOEIC LR 915/990, SW 360/400
+- 統計検定準1級
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTE5NTcwODI1MywtMTY1MjA4NzM2NiwtMT
